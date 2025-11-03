@@ -1,0 +1,33 @@
+/* Hoja de estilos principal */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ADD8E6;
+  color: #3958bd;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #0f5e4c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #ff0000;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
