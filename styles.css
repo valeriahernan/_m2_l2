@@ -1,34 +1,35 @@
-/* Hoja de estilosss para la página web */
-
+/* Fondo general y tipografía */
 body {
-  font-family: Garamond, serif;
-  background: lightblue;
-  color: #091641;
-  margin: 0;
-  padding: 0;
-}
-
-header, footer {
   background-color: lightblue;
-  color: #0b0214;
-  text-align: center;
-  padding: 15px;
+  color: red;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-main {
-  padding: 20px;
+/* Títulos */
+h1, h2, h3 {
+  color: red;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-h1, h2 {
-  color: #ff0000;
-  text-align: center;
-}
-
+/* Imagen */
 img {
-  display: block;
-  margin: 0px auto;
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
-  text-align: center;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+/* Aside (alerta personalizada) */
+.alert-success {
+  background-color: #a8e6a3;
+  border: none;
+  color: #084c1e;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
 }
