@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- (Opcional) Bootstrap JS con Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alerces Milenarios</title>
 
-  <!-- Etiqueta base: definicion ruta base para los enlaces y recursos -->
-  <base href="https://valeriahernan.github.io/_m2_l2/">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Hoja de estilos, estética y diseño visual -->
+  <!-- Tu CSS personalizado -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Ruta base -->
+  <base href="https://valeriahernan.github.io/_m2_l2/">
 </head>
 
 <body>
-  <!-- Encabezado inicial del sitio web-->
-  <header>
-    <h1>Alerces Milenarios</h1>
-    <p>Guardianes milenarios del bosque chileno</p>
+  <!-- Encabezado -->
+  <header class="text-center py-5 bg-light border-bottom">
+    <div class="container">
+      <h1 class="display-4 fw-bold text-danger">Alerces Milenarios</h1>
+      <p class="lead text-danger">Guardianes milenarios del bosque chileno</p>
+    </div>
   </header>
 
-  <!-- Contenido principal de la web -->
-  <main>
-    <!-- Sección informativa (frase relevante) -->
-    <section>
-      <h2>Importancia del cuidado del medio ambiente</h2>
-
-      <!-- Información principal como general de la web -->
-      <article>
-        <p>
+  <!-- Contenido principal -->
+  <main class="container my-5">
+    <section class="row align-items-center">
+      <!-- Texto principal -->
+      <article class="col-md-7 mb-4">
+        <h2 class="text-danger fw-semibold mb-3">Importancia del cuidado del medio ambiente</h2>
+        <p class="fs-5">
           Los alerces son árboles ancestrales que representan la conexión entre la naturaleza y el paso del tiempo.
           Su preservación es vital para la biodiversidad y el equilibrio ecológico de los bosques del sur de Chile.
         </p>
-        <img src="assets/img/alerce_1640x1230.jpg" alt="Alerce Milenario">
       </article>
 
-      <!-- Contenido complementariorsss -->
-      <aside>
-        <p>
-          🌳 ¿Sabías que algunos alerces pueden vivir más de 3.000 años?  
-          Son considerados una de las especies más longevas del planeta.
-        </p>
-      </aside>
+      <!-- Imagen -->
+      <div class="col-md-5 text-center">
+        <img src="assets/img/alerce_1640x1230.jpg" alt="Alerce Milenario" class="img-fluid rounded shadow">
+      </div>
     </section>
+
+    <!-- Aside informativo -->
+    <aside class="alert alert-success mt-5 shadow-sm">
+      🌳 <strong>¿Sabías que...</strong> algunos alerces pueden vivir más de 3.000 años?  
+      Son considerados una de las especies más longevas del planeta.
+    </aside>
   </main>
 
   <!-- Pie de página -->
-  <footer>
-    <p>Naturaleza Nativa Chile © 2025</p>
+  <footer class="text-center py-3 bg-light border-top mt-5">
+    <p class="mb-0 text-danger">Naturaleza Nativa Chile © 2025</p>
   </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
