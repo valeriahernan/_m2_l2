@@ -92,4 +92,9 @@ footer {
   h2 {
     font-size: 1.5rem;
   }
+/* 🌈 Modo oscuro */
+  body {
+    background-color: rgb(231, 88, 112);
+  }
+}
 }
