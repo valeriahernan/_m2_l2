@@ -57,7 +57,7 @@ footer {
   }
 }
 
-/* 💻 Para pantallas grandes (computadores o monitores anchos) */
+/* COMPUTADORES*/
 @media (min-width: 992px) {
   main {
     max-width: 1000px;
@@ -75,7 +75,7 @@ footer {
     font-size: 2rem;
   }
 }
-/* 📱 Para pantallas pequeñas (móviles y tablets) */ 
+/* MÓVILES */ 
 
 @media (max-width: 576px) {
   main {
@@ -92,7 +92,7 @@ footer {
   h2 {
     font-size: 1.5rem;
   }
-/* 🌈 Modo oscuro */
+/* SI ES MAS CHICA Q SEA ROSADA*/
   body {
     background-color: rgb(231, 88, 112);
   }
