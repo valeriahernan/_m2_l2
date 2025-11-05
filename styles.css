@@ -33,3 +33,63 @@ img:hover {
 footer {
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+@media (max-width: 576px) {
+  body {
+    background-color: #b3e0ff; /* un celeste más suave para móviles */
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+/* 💻 Para pantallas grandes (computadores o monitores anchos) */
+@media (min-width: 992px) {
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  img {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+/* 📱 Para pantallas pequeñas (móviles y tablets) */ 
+
+@media (max-width: 576px) {
+  main {
+    padding: 0 15px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
