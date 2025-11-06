@@ -24,13 +24,13 @@ img:hover {
 
 /* asie*/
 .alert-success {
-  background-color: rgb(33, 151, 96);
+  background-color: rgb(23, 112, 70);
   border: none;
   color: #ffffff;
   font-size: 1.1rem;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   background-color: lightblue;
 }
