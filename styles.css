@@ -24,9 +24,9 @@ img:hover {
 
 /* asie*/
 .alert-success {
-  background-color: lightblue;
+  background-color: rgb(33, 151, 96);
   border: none;
-  color: #084c1e;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 
