@@ -23,7 +23,7 @@ img:hover {
 
 /* asie*/
 .alert-success {
-  background-color: #a8e6a3;
+  background-color: lightblue;
   border: none;
   color: #084c1e;
   font-size: 1.1rem;
@@ -31,7 +31,7 @@ img:hover {
 
 /* Footer */
 footer {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: lightblue;
 }
 
 @media (max-width: 576px) {
