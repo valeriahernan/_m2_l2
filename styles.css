@@ -30,7 +30,26 @@ img:hover {
   font-size: 1.1rem;
 }
 
+/* BOTÓN QUE BAJA Y SUBE */
 
+#btnArriba {
+  position: fixed;
+  bottom: 90px;
+  right: 90px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e8b57;
+  color: white;
+  cursor: pointer;
+  display: none; /* Debería estar oculto al principioooo */
+  transition: opacity 0.3s ease;
+}
+
+#btnArriba:hover {
+  background-color: #256b46;
+}
 
 /* FOOTER */
 footer {
